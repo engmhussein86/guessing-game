@@ -1,4 +1,4 @@
-const target = Math.ceil(Math.random()*100);
+const target =  Math.floor(Math.random() * 100 + 1);
 console.log(target);
 
 const app =document.getElementById('app');
